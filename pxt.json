@@ -3,7 +3,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "Sonar": "github:magnus-charles/sonar#master"
     },
     "files": [
         "main.blocks",
