@@ -1,10 +1,11 @@
 {
-    "name": "Sonar with lights",
+    "name": "Sonar with neopixels",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "Sonar": "github:magnus-charles/sonar#master"
+        "Sonar": "github:magnus-charles/sonar#master",
+        "Neopixels": "github:magnus-charles/neopixels#master"
     },
     "files": [
         "main.blocks",
