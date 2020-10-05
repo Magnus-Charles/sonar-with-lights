@@ -16,12 +16,15 @@ basic.forever(function () {
         strip2 = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
         strip2.showColor(neopixel.colors(NeoPixelColors.Green))
     }
+    basic.pause(5000)
     if (distance_from_sonar <= 4) {
         strip2 = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
         strip2.showColor(neopixel.colors(NeoPixelColors.Blue))
     }
+    basic.pause(5000)
     if (distance_from_sonar <= 1) {
         strip2 = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
         strip2.showColor(neopixel.colors(NeoPixelColors.Red))
     }
+    basic.pause(5000)
 })
