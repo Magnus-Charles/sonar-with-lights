@@ -9,6 +9,7 @@ basic.forever(function () {
     if (distance_from_sonar > 4) {
         strip2 = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
         strip2.showColor(neopixel.colors(NeoPixelColors.Green))
+        strip2.show()
         basic.pause(5000)
         strip2.clear()
     }
@@ -16,6 +17,7 @@ basic.forever(function () {
     if (distance_from_sonar <= 4) {
         strip2 = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
         strip2.showColor(neopixel.colors(NeoPixelColors.Blue))
+        strip2.show()
         basic.pause(5000)
         strip2.clear()
     }
@@ -23,9 +25,9 @@ basic.forever(function () {
     if (distance_from_sonar <= 1) {
         strip2 = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
         strip2.showColor(neopixel.colors(NeoPixelColors.Red))
+        strip2.show()
         basic.pause(5000)
         strip2.clear()
     }
     basic.pause(5000)
-    strip2.clear()
 })
